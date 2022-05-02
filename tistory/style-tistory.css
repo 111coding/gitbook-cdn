@@ -1,0 +1,383 @@
+.book-summary ul.tt_category {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: top .5s ease;
+    -moz-transition: top .5s ease;
+    -o-transition: top .5s ease;
+    transition: top .5s ease
+}
+
+.book-summary ul.tt_category li {
+    list-style: none
+}
+
+.book-summary ul.tt_category li.header {
+    padding: 10px 15px;
+    padding-top: 20px;
+    text-transform: uppercase;
+    color: #939da3
+}
+
+.book-summary ul.tt_category li.divider {
+    height: 1px;
+    margin: 7px 0;
+    overflow: hidden;
+    background: rgba(0, 0, 0, .07)
+}
+
+.book-summary ul.tt_category li i.fa-check {
+    display: none;
+    position: absolute;
+    right: 9px;
+    top: 16px;
+    font-size: 9px;
+    color: #3c3
+}
+
+.book-summary ul.tt_category li.done>a {
+    color: #364149;
+    font-weight: 400
+}
+
+.book-summary ul.tt_category li.done>a i {
+    display: inline
+}
+
+.book-summary ul.tt_category li a,
+.book-summary ul.tt_category li span {
+    display: block;
+    padding: 10px 15px;
+    border-bottom: none;
+    color: #364149;
+    background: 0 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative
+}
+
+.book-summary ul.tt_category li a {
+    display:flex;
+    align-items: center
+}
+
+.book-summary ul.tt_category li a span {
+    padding: 0 5px
+}
+
+.book-summary ul.tt_category li a img {
+    height: 100%
+}
+
+.book-summary ul.tt_category li a:hover {
+    text-decoration: underline
+}
+
+.book-summary ul.tt_category li a:focus {
+    outline: 0
+}
+
+.book-summary ul.tt_category li.active>a {
+    color: #008cff;
+    background: 0 0;
+    text-decoration: none
+}
+
+.book-summary ul.tt_category li ul {
+    padding-left: 20px
+}
+
+
+/*
+ * Theme 1
+ */
+ .color-theme-1 .dropdown-menu {
+    background-color: #111111;
+    border-color: #7e888b;
+  }
+  .color-theme-1 .dropdown-menu .dropdown-caret .caret-inner {
+    border-bottom: 9px solid #111111;
+  }
+  .color-theme-1 .dropdown-menu .buttons {
+    border-color: #7e888b;
+  }
+  .color-theme-1 .dropdown-menu .button {
+    color: #afa790;
+  }
+  .color-theme-1 .dropdown-menu .button:hover {
+    color: #73553c;
+  }
+  /*
+   * Theme 2
+   */
+  .color-theme-2 .dropdown-menu {
+    background-color: #2d3143;
+    border-color: #272a3a;
+  }
+  .color-theme-2 .dropdown-menu .dropdown-caret .caret-inner {
+    border-bottom: 9px solid #2d3143;
+  }
+  .color-theme-2 .dropdown-menu .buttons {
+    border-color: #272a3a;
+  }
+  .color-theme-2 .dropdown-menu .button {
+    color: #62677f;
+  }
+  .color-theme-2 .dropdown-menu .button:hover {
+    color: #f4f4f5;
+  }
+  .book .book-header .font-settings .font-enlarge {
+    line-height: 30px;
+    font-size: 1.4em;
+  }
+  .book .book-header .font-settings .font-reduce {
+    line-height: 30px;
+    font-size: 1em;
+  }
+  .book.color-theme-1 .book-body {
+    color: #704214;
+    background: #f3eacb;
+  }
+  .book.color-theme-1 .book-body .page-wrapper .page-inner section {
+    background: #f3eacb;
+  }
+  .book.color-theme-2 .book-body {
+    color: #bdcadb;
+    background: #1c1f2b;
+  }
+  .book.color-theme-2 .book-body .page-wrapper .page-inner section {
+    background: #1c1f2b;
+  }
+  .book.font-size-0 .book-body .page-inner section {
+    font-size: 1.2rem;
+  }
+  .book.font-size-1 .book-body .page-inner section {
+    font-size: 1.4rem;
+  }
+  .book.font-size-2 .book-body .page-inner section {
+    font-size: 1.6rem;
+  }
+  .book.font-size-3 .book-body .page-inner section {
+    font-size: 2.2rem;
+  }
+  .book.font-size-4 .book-body .page-inner section {
+    font-size: 4rem;
+  }
+  .book.font-family-0 {
+    font-family: Georgia, serif;
+  }
+  .book.font-family-1 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal {
+    color: #704214;
+  }
+  .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal a {
+    color: inherit;
+  }
+  .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal h1,
+  .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal h2,
+  .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal h3,
+  .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal h4,
+  .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal h5,
+  .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal h6 {
+    color: inherit;
+  }
+  .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal h1,
+  .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal h2 {
+    border-color: inherit;
+  }
+  .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal h6 {
+    color: inherit;
+  }
+  .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal hr {
+    background-color: inherit;
+  }
+  .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal blockquote {
+    border-color: inherit;
+  }
+  .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal pre,
+  .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal code {
+    background: #fdf6e3;
+    color: #657b83;
+    border-color: #f8df9c;
+  }
+  .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal .highlight {
+    background-color: inherit;
+  }
+  .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal table th,
+  .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal table td {
+    border-color: #f5d06c;
+  }
+  .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal table tr {
+    color: inherit;
+    background-color: #fdf6e3;
+    border-color: #444444;
+  }
+  .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal table tr:nth-child(2n) {
+    background-color: #fbeecb;
+  }
+  .book.color-theme-2 .book-body .page-wrapper .page-inner section.normal {
+    color: #bdcadb;
+  }
+  .book.color-theme-2 .book-body .page-wrapper .page-inner section.normal a {
+    color: #3eb1d0;
+  }
+  .book.color-theme-2 .book-body .page-wrapper .page-inner section.normal h1,
+  .book.color-theme-2 .book-body .page-wrapper .page-inner section.normal h2,
+  .book.color-theme-2 .book-body .page-wrapper .page-inner section.normal h3,
+  .book.color-theme-2 .book-body .page-wrapper .page-inner section.normal h4,
+  .book.color-theme-2 .book-body .page-wrapper .page-inner section.normal h5,
+  .book.color-theme-2 .book-body .page-wrapper .page-inner section.normal h6 {
+    color: #fffffa;
+  }
+  .book.color-theme-2 .book-body .page-wrapper .page-inner section.normal h1,
+  .book.color-theme-2 .book-body .page-wrapper .page-inner section.normal h2 {
+    border-color: #373b4e;
+  }
+  .book.color-theme-2 .book-body .page-wrapper .page-inner section.normal h6 {
+    color: #373b4e;
+  }
+  .book.color-theme-2 .book-body .page-wrapper .page-inner section.normal hr {
+    background-color: #373b4e;
+  }
+  .book.color-theme-2 .book-body .page-wrapper .page-inner section.normal blockquote {
+    border-color: #373b4e;
+  }
+  .book.color-theme-2 .book-body .page-wrapper .page-inner section.normal pre,
+  .book.color-theme-2 .book-body .page-wrapper .page-inner section.normal code {
+    color: #9dbed8;
+    background: #2d3143;
+    border-color: #2d3143;
+  }
+  .book.color-theme-2 .book-body .page-wrapper .page-inner section.normal .highlight {
+    background-color: #282a39;
+  }
+  .book.color-theme-2 .book-body .page-wrapper .page-inner section.normal table th,
+  .book.color-theme-2 .book-body .page-wrapper .page-inner section.normal table td {
+    border-color: #3b3f54;
+  }
+  .book.color-theme-2 .book-body .page-wrapper .page-inner section.normal table tr {
+    color: #b6c2d2;
+    background-color: #2d3143;
+    border-color: #3b3f54;
+  }
+  .book.color-theme-2 .book-body .page-wrapper .page-inner section.normal table tr:nth-child(2n) {
+    background-color: #35394b;
+  }
+  .book.color-theme-1 .book-header {
+    color: #afa790;
+    background: transparent;
+  }
+  .book.color-theme-1 .book-header .btn {
+    color: #afa790;
+  }
+  .book.color-theme-1 .book-header .btn:hover {
+    color: #73553c;
+    background: none;
+  }
+  .book.color-theme-1 .book-header h1 {
+    color: #704214;
+  }
+  .book.color-theme-2 .book-header {
+    color: #7e888b;
+    background: transparent;
+  }
+  .book.color-theme-2 .book-header .btn {
+    color: #3b3f54;
+  }
+  .book.color-theme-2 .book-header .btn:hover {
+    color: #fffff5;
+    background: none;
+  }
+  .book.color-theme-2 .book-header h1 {
+    color: #bdcadb;
+  }
+  .book.color-theme-1 .book-body .navigation {
+    color: #afa790;
+  }
+  .book.color-theme-1 .book-body .navigation:hover {
+    color: #73553c;
+  }
+  .book.color-theme-2 .book-body .navigation {
+    color: #383f52;
+  }
+  .book.color-theme-2 .book-body .navigation:hover {
+    color: #fffff5;
+  }
+  /*
+   * Theme 1
+   */
+  .book.color-theme-1 .book-summary {
+    color: #afa790;
+    background: #111111;
+    border-right: 1px solid rgba(0, 0, 0, 0.07);
+  }
+  .book.color-theme-1 .book-summary .book-search {
+    background: transparent;
+  }
+  .book.color-theme-1 .book-summary .book-search input,
+  .book.color-theme-1 .book-summary .book-search input:focus {
+    border: 1px solid transparent;
+  }
+  .book.color-theme-1 .book-summary ul.tt_category li.divider {
+    background: #7e888b;
+    box-shadow: none;
+  }
+  .book.color-theme-1 .book-summary ul.tt_category li i.fa-check {
+    color: #33cc33;
+  }
+  .book.color-theme-1 .book-summary ul.tt_category li.done > a {
+    color: #877f6a;
+  }
+  .book.color-theme-1 .book-summary ul.tt_category li a,
+  .book.color-theme-1 .book-summary ul.tt_category li span {
+    color: #877f6a;
+    background: transparent;
+    font-weight: normal;
+  }
+  .book.color-theme-1 .book-summary ul.tt_category li.active > a,
+  .book.color-theme-1 .book-summary ul.tt_category li a:hover {
+    color: #704214;
+    background: transparent;
+    font-weight: normal;
+  }
+  /*
+   * Theme 2
+   */
+  .book.color-theme-2 .book-summary {
+    color: #bcc1d2;
+    background: #2d3143;
+    border-right: none;
+  }
+  .book.color-theme-2 .book-summary .book-search {
+    background: transparent;
+  }
+  .book.color-theme-2 .book-summary .book-search input,
+  .book.color-theme-2 .book-summary .book-search input:focus {
+    border: 1px solid transparent;
+  }
+  .book.color-theme-2 .book-summary ul.tt_category li.divider {
+    background: #272a3a;
+    box-shadow: none;
+  }
+  .book.color-theme-2 .book-summary ul.tt_category li i.fa-check {
+    color: #33cc33;
+  }
+  .book.color-theme-2 .book-summary ul.tt_category li.done > a {
+    color: #62687f;
+  }
+  .book.color-theme-2 .book-summary ul.tt_category li a,
+  .book.color-theme-2 .book-summary ul.tt_category li span {
+    color: #c1c6d7;
+    background: transparent;
+    font-weight: 600;
+  }
+  .book.color-theme-2 .book-summary ul.tt_category li.active > a,
+  .book.color-theme-2 .book-summary ul.tt_category li a:hover {
+    color: #f4f4f5;
+    background: #252737;
+    font-weight: 600;
+  }
+  
